@@ -64,7 +64,7 @@ Visit https://randopic.herokuapp.com/ in your web browser. The backend will assi
 **Before you start anything else, locate the variable `imageId` in the `src/index.js`. Replace the value of the variable with your image id, and use it as the `/:id` parameter in your initial GET request.** This will be the image you'll be working with for this code challenge.
 
 ```js
-GET 'https://randopic.herokuapp.com/images/${imageID}'
+GET 'https://randopic.herokuapp.com/images/:id'
 ```
 
 ```json
@@ -88,7 +88,7 @@ Example Response:
 
 Use the data from the API response to change what's currently on the page (take a look at the already provided `index.html`). You will need to add/update:
 
-
+- the image url
 - the image name
 - the number of likes
 - any comments in an unordered list
