@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
 
     
-  // var imageSmile = document.createElement('img')
+  // var imageSmile = document.createElement(
   //  imageSmile.src = `https://upload.wikimedia.org/wikipedia/commons/6/66/An_up-close_picture_of_a_curious_male_domestic_shorthair_tabby_cat.jpg`
    document.getElementById("image").append(imageSmile);
   // document.body.append()
